@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+.eggs/
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp*/
+temp/
+*.tmp
+
+# Model files (too large for git)
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.ckpt
+*.h5
+
+# Data files
+*.jsonl
+*.csv
+
+# Experiment outputs
+wandb/
+outputs/
+runs/
+checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# LLaMA-Factory temp files
+LLaMA-Factory/tmp*/
